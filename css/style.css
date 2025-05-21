@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* تضمن أن الصفحة تمتلئ بالارتفاع الكامل للعرض */
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    direction: rtl;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    direction: rtl;
+    display: inline;
+    
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: #fff;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 600px;
+    height: 500px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.product img {
+    width: 300px;
+    height: 300px;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.add{
+    border: 5px solid #ddd;
+    color: #fff;
+    margin-top: 10px;
+    width: 600px;
+}
+table {
+    direction: ltr;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+   
+    
+}
+
+th, td {
+    
+    border: 5px solid #117a8b;
+    padding: 10px;
+    
+
+}
+td button:hover{
+    background-color: #ddd;
+    color: white;
+}
+th {
+    background-color: #333;
+    color: #fff;
+}
+.intro{
+    color: white;
+    text-align: center;
+}
+table a {
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+table a:hover {
+    background-color: #ddd;
+    color: white;
+}
+form {
+    width: 600px;
+    background: black;
+    margin: 0 auto;
+    text-align: left;
+    direction: ltr;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 25px;
+    color: black;
+}
+
+form input, form textarea, form select {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    text-align: left;
+    margin-left: 10px
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: right;
+}
+form button:hover {
+    background-color: #f0f0f0;
+    color: black;
+}
+.dialog {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dialog-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.edit:hover{
+    background-color: #f0f0f0;
+    color: black;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+
+}
